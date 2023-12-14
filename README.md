@@ -2,13 +2,14 @@
 
 ## 專案介紹
 - 主程式：[main.ipynb](main.ipynb)
-- 資料集: [BIRDS 525 SPECIES- IMAGE CLASSIFICATION](https://www.kaggle.com/datasets/gpiosenka/100-bird-species)
+- 資料集：[BIRDS 525 SPECIES- IMAGE CLASSIFICATION](https://www.kaggle.com/datasets/gpiosenka/100-bird-species)
     ![dataset](img/dataset.png)
     - 訓練集路徑："./dataset/train"
     - 驗證集路徑："./dataset/valid"
     - 測試集路徑："./dataset/test"
 - 任務：圖片分類
 - 方法：使用EfficientNetV2預訓練模型進行遷移學習，設計並訓練下游任務的分類器模型。
+- 準確度：94.51 %
 - 模型架構：
     1. EfficientNetV2
         - Exclude Fully-Connected Layer at the top of the network.
